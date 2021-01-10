@@ -5150,7 +5150,7 @@ MonoBehaviour:
   messageText: {fileID: 1559103527}
   joinGamePanel: {fileID: 967749726333197407}
   roomListEntryPrefab: {fileID: 841278376669109242, guid: 1b50ba566761f6c42bf8b3c775911a8d, type: 3}
-  roomListParent: {fileID: 967749727446827129}
+  roomListParent: {fileID: 967749726716806997}
   creatingGameInfoPanel: {fileID: 1441299858}
   farmerSelectionPanel: {fileID: 1002920625}
   gameInfoText: {fileID: 302771727}

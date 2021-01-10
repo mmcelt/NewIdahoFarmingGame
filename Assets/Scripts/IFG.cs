@@ -43,7 +43,7 @@ public class IFG
 	public const string TetonDamHeaderText = "TETON DAM DISASTER";
 	public const string HarvestBaseMessage = "Please roll the die to get your gross Harvest Check...";
 	//Special Colors
-	public static Color Purple = new Color(0.6039f, 0.1607f, 0.7411f);
+	public static Color Purple = new Color(0.5f, 0.0f, 0.5f);
 	public static Color Brown = new Color(0.6627f,0.4117f,0f);
 	public static Color SpudBlue = new Color(0f, 0.6392157f, 0.8392158f);
 	public static Color GreyedOut = new Color(0.5943396f, 0.5943396f, 0.5943396f);

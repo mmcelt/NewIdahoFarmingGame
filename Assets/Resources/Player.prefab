@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1564060519
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 45fed4313f74fa046a0b10e75f0182bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -91,8 +91,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5130892188516768635}
+  - component: {fileID: -4069775398378598337}
+  - component: {fileID: -3999357411687116998}
+  - component: {fileID: 8932423239159135738}
+  - component: {fileID: 6604243731829014166}
   m_Layer: 0
-  m_Name: Player (0)
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,3 +117,125 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4069775398378598337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5130892188516768634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: -3999357411687116998}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &-3999357411687116998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5130892188516768634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PositionModel:
+    SynchronizeEnabled: 1
+    TeleportEnabled: 1
+    TeleportIfDistanceGreaterThan: 2
+    InterpolateOption: 0
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 1
+    ExtrapolateOption: 0
+    ExtrapolateSpeed: 1
+    ExtrapolateIncludingRoundTripTime: 1
+    ExtrapolateNumberOfStoredPositions: 1
+  m_RotationModel:
+    SynchronizeEnabled: 0
+    InterpolateOption: 1
+    InterpolateRotateTowardsSpeed: 180
+    InterpolateLerpSpeed: 5
+  m_ScaleModel:
+    SynchronizeEnabled: 0
+    InterpolateOption: 0
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 0
+--- !u!114 &8932423239159135738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5130892188516768634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8347e50834de2c941aba1d88cbdfe968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiPrefab: {fileID: 6310750885115223408, guid: 44c5367047a9ef14eb6866ab61461144, type: 3}
+  diePrefab: {fileID: 8980114885317863626, guid: 69cb5f19486400a449932b7b763ce0f1, type: 3}
+  chatManagerPrefab: {fileID: 6533359264906766442, guid: bf4dabea0da172040aba159936c5017d, type: 3}
+--- !u!114 &6604243731829014166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5130892188516768634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620334aa462c96840abf89b0398f1f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pCash: 0
+  _pNotes: 0
+  _pNetworth: 0
+  _pHay: 0
+  _pFruit: 0
+  _pGrain: 0
+  _pFarmCows: 0
+  _pRangeCows: 0
+  _pSpuds: 0
+  _pHayDoubled: 0
+  _pHayDoubledCounter: 0
+  _pCherriesCutInHalf: 0
+  _pWheatCutInHalf: 0
+  _pCowsIncreased: 0
+  _pSpudsDoubled: 0
+  _pCornDoubled: 0
+  _firstHay: 0
+  _cherries: 0
+  _secondHay: 0
+  _wheat: 0
+  _thirdHay: 0
+  _livestock: 0
+  _fourthHay: 0
+  _spuds: 0
+  _apples: 0
+  _corn: 0
+  _pTractor: 0
+  _pHarvester: 0
+  _oxfordOwned: 0
+  _targheeOwned: 0
+  _lostRiverOwned: 0
+  _lemhiOwned: 0
+  _pWagesGarnished: 0
+  _pNoWages: 0
+  _isMyTurn: 0
+  _isOkToCloseOtbPanel: 0
+  _isOkToCloseFfPanel: 0
+  _myOtbCount: 0
+  _tetonDamVictims: 

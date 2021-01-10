@@ -144,23 +144,23 @@ public class PlayerListEntryInitializer : MonoBehaviourPun
 		{
 			case 0:
 				playerNameText.color = Color.blue;
-				farmer = "Rigby Ron";
+				farmer = IFG.Ron;
 				break;
 			case 1:
-				playerNameText.color = Color.yellow;
-				farmer = "Kimberly Kay";
+				playerNameText.color = Color.red;
+				farmer = IFG.Kay;
 				break;
 			case 2:
 				playerNameText.color = IFG.Purple;
-				farmer = "Jerome Jerry";
+				farmer = IFG.Jerry;
 				break;
 			case 3:
 				playerNameText.color = Color.black;
-				farmer = "Ririe Ric";
+				farmer = IFG.Ric;
 				break;
 			case 4:
-				playerNameText.color = Color.red;
-				farmer = "Menan Mike";
+				playerNameText.color = Color.yellow;
+				farmer = IFG.Mike;
 				break;
 			case 5:
 				playerNameText.color = Color.white;
