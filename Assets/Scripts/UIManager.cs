@@ -19,9 +19,9 @@ public class UIManager : MonoBehaviourPun
 	public TextMeshProUGUI[] _otherPlayerCashTexts;
 	public TextMeshProUGUI[] _otherPlayerNotesTexts;
 	public TextMeshProUGUI[] _otherPlayerOtbTexts;
-	public GameObject _wagesGarnishedWarning;
 	public GameObject _cherriesCutInHalfWarning;
 	public GameObject _wheatCutInHalfWarning;
+	public GameObject _wagesGarnishedWarning;
 	public Button _rollButton;
 	public Button _endTurnButton;
 	public TextMeshProUGUI _currentYearText, _otbText, _playerCashText, _playerNotesText, _networthText;
@@ -29,7 +29,7 @@ public class UIManager : MonoBehaviourPun
 	public Image _hayImage, _grainImage, _spudsImage, _farmCowImage, _rangeCowImage;
 	[SerializeField] Text _hayDoubledCounterText;
 	[SerializeField] Sprite _hayNormal, _hayDoubled, _grainNormal, _grainDoubled, _spudsNormal, _spudsDoubled, _cowNormal, _cowDoubled;
-	[SerializeField] Text _hayText, _grainText, _fruitText, _spudText, _fCowText, _rCowText;
+	[SerializeField] Text _hayText, _grainText, _spudText, _fruitText,  _fCowText, _rCowText;
 
 	[Header("Right Panel")]
 	[SerializeField] Text _gameTyeText, _gameEndText;
